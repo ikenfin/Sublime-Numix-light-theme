@@ -32,6 +32,6 @@ Add option `"theme" : "Numix Light.sublime-theme"`
 
 ## Screenshots
 
-![](https://dl.dropboxusercontent.com/u/76506086/github/numix%20light/screenshots/1.png)
+![](https://dl.dropboxusercontent.com/u/76506086/github/numix%20light/screenshots/1_v1.png)
 
-![](https://dl.dropboxusercontent.com/u/76506086/github/numix%20light/screenshots/2.png)
+![](https://dl.dropboxusercontent.com/u/76506086/github/numix%20light/screenshots/2_v1.png)
