@@ -2,7 +2,6 @@
 
 Sublime text theme based on [Numix Theme](https://github.com/alperenelhan/sublime-numix-theme).
 
----
 ## Installation
 
 ### Get theme
@@ -21,8 +20,6 @@ While inside the `Packages` directory, clone the theme repository using the comm
 * Unzip the files
 * Copy the folder to your Sublime Text 3 `Packages` directory
 
----
-
 ### Activate
 #### Activating theme
 Open config file `Preferences -> Settings - User`
@@ -32,8 +29,6 @@ Add option `"theme" : "Numix Light.sublime-theme"`
 #### Activating the color scheme
 
 `Preferences -> Color Scheme -> Theme - Numix Light -> Numix Light`.
-
----
 
 ## Screenshots
 
