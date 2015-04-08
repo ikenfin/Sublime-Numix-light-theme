@@ -990,14 +990,14 @@
   {
     "class": "icon_button_control",
     "attributes": ["selected", "hover"],
-    "layer0.tint": [60, 60, 60]
+    "layer0.tint": [60, 60, 60],
   },
   // :: SELECTED
   {
     "class": "icon_button_control",
     "attributes": ["selected"],
     "layer0.texture": "",
-    "layer0.tint": [214, 73, 73]
+    "layer0.tint": [214, 73, 55]//[214, 73, 73]
   },
 
 //
@@ -1016,7 +1016,7 @@
   {
     "class": "icon_regex",
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-    "layer0.tint": [210, 210, 210]
+    "layer0.tint": [210, 210, 210, 255]
   },
   {
     "class": "icon_regex",
