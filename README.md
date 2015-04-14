@@ -26,10 +26,6 @@ Open config file `Preferences -> Settings - User`
 
 Add option `"theme" : "Numix Light.sublime-theme"`
 
-#### Activating the color scheme
-
-`Preferences -> Color Scheme -> Theme - Numix Light -> Numix Light`.
-
 ## Screenshots
 
 ![](https://dl.dropboxusercontent.com/u/76506086/github/numix%20light/screenshots/1_v1.png)
