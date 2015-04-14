@@ -1,12 +1,14 @@
 # Theme - Numix Light
 
-Sublime text theme based on [Numix Theme](https://github.com/alperenelhan/sublime-numix-theme).
+Sublime text theme based on ["Theme - Numix"](https://github.com/alperenelhan/sublime-numix-theme).
 
 ## Installation
 
-### Get theme
+### Using Package Control
 
-#### Using Git
+In menu ([ctrl] + [shift] + p) select `Package Control: Install Package`, then find and install `Theme - Numix Light` package.
+
+### Using Git
 
 Locate your Sublime Text 3 `Packages` directory by using the menu item `Preferences -> Browse Packages...`.
 
@@ -14,7 +16,7 @@ While inside the `Packages` directory, clone the theme repository using the comm
 
     git clone https://github.com/ikenfin/Sublime-Numix-light-theme.git
 
-#### Download Manually
+### Download Manually
 
 * Download the files using the GitHub .zip download option
 * Unzip the files
