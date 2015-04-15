@@ -717,60 +717,6 @@
     "layer0.tint": [255, 255, 255, 200]
   },
 
-  //
-  // Sidebar Selected Folder Icons
-
-  //
-  // DESELECTED
-  // :: CLOSED
-  {
-    "class": "disclosure_button_control",
-    "parents": [{"class": "tree_row"}],
-    "content_margin": [0, 6, 18, 7],
-    "layer0.opacity": 1.0,
-    "layer0.inner_margin": 0,
-    "layer0.texture": "Theme - Numix Light/assets/group-closed.png",
-    "layer0.tint": [60, 60, 60, 200]
-  },
-
-  // :: CLOSED :: HOVER
-  {
-    "class": "disclosure_button_control",
-    "parents": [{"class": "tree_row", "attributes": ["hover"]}]
-  },
-
-  //
-  // :: OPEN
-  {
-    "class": "disclosure_button_control",
-    "attributes": ["expanded"],
-    "parents": [{"class": "tree_row"}],
-    "layer0.texture": "Theme - Numix Light/assets/group-open.png"
-  },
-  //
-  // :: OPEN :: HOVER
-  {
-    "class": "disclosure_button_control",
-    "attributes": ["expanded"],
-    "parents": [{"class": "tree_row", "attributes": ["hover"]}]
-  },
-
-  //
-  // SELECTED
-  // :: CLOSED
-  {
-    "class": "disclosure_button_control",
-    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-    "layer0.tint": [255, 255, 255, 200]
-  },
-  // :: OPEN
-  {
-    "class": "disclosure_button_control",
-    "attributes": ["expanded"],
-    "parents": [{"class": "tree_row", "attributes": ["selected"]}]
-  },
-
-
 
   //
   // STANDARD TEXT BUTTONS
@@ -896,14 +842,14 @@
 //    "selected_match_fg": [255, 255, 255, 200]
   },
   {
-    "class": "quick_panel_path_label",
+    "class": "quick_panel_path_label"
    // "fg": [222, 222, 222],
    // "match_fg": [255, 255, 255, 200],
     //"selected_fg": [222, 222, 222],
     //"selected_match_fg": [255, 255, 255, 200]
   },
   {
-    "class": "quick_panel_score_label",
+    "class": "quick_panel_score_label"
     //"fg": [255, 255, 255, 200],
     //"selected_fg": [255, 255, 255, 200]
   },
@@ -990,7 +936,7 @@
   {
     "class": "icon_button_control",
     "attributes": ["selected", "hover"],
-    "layer0.tint": [60, 60, 60],
+    "layer0.tint": [60, 60, 60]
   },
   // :: SELECTED
   {
@@ -1268,19 +1214,114 @@
     "layer0.tint": [255, 255, 255, 255]
   },
   
-// 
-// FIX FOR DUPLICATE ICONS
-// 
+
+  // 
+  // SIDEBAR ICONS
+  // 
+  
+  // Old SublimeText versions sidebar fallback:
+  //
+//
+
+  // {
+  //   "class": "fallback_sidebar_icons",
+  //   "parents": [{"class": "tree_row"}],
+  //   "content_margin": [0, 6, 18, 7],
+  //   "layer0.opacity": 1.0,
+  //   "layer0.inner_margin": 0,
+  //   // "settings": ["numix_light_sidebar_fallback"],
+  //   "layer0.tint": [60, 60, 60, 200]
+  // },
+  // DESELECTED
+  // :: CLOSED
   {
-    "class": "icon_file_type",
-    "content_margin": [0,0]
+    "class": "disclosure_button_control",
+    "parents": [{"class": "tree_row"}],
+    "content_margin": [0, 6, 18, 7],
+    "layer0.opacity": 1.0,
+    "layer0.inner_margin": 0,
+    "layer0.texture": "Theme - Numix Light/assets/group-closed.png",
+    "layer0.tint": [60, 60, 60, 200],
+    "settings": ["numix_light_sidebar_fallback"]
   },
+
+  // :: CLOSED :: HOVER
   {
-    "class": "icon_folder",
-    "content_margin": [0,0]
+    "class": "disclosure_button_control",
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "settings": ["numix_light_sidebar_fallback"]
   },
+
+  //
+  // :: OPEN
   {
-    "class": "icon_folder_loading",
-    "content_margin": [0,0]
-  }
+    "class": "disclosure_button_control",
+    "attributes": ["expanded"],
+    "parents": [{"class": "tree_row"}],
+    "layer0.texture": "Theme - Numix Light/assets/group-open.png",
+    "settings": ["numix_light_sidebar_fallback"]
+  },
+  //
+  // :: OPEN :: HOVER
+  {
+    "class": "disclosure_button_control",
+    "attributes": ["expanded"],
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "settings": ["numix_light_sidebar_fallback"]
+  },
+
+  //
+  // SELECTED
+  // :: CLOSED
+  {
+    "class": "disclosure_button_control",
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    "layer0.tint": [255, 255, 255, 200],
+    "settings": ["numix_light_sidebar_fallback"]
+  },
+  // :: OPEN
+  {
+    "class": "disclosure_button_control",
+    "attributes": ["expanded"],
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    "settings": ["numix_light_sidebar_fallback"]
+  },
+
+
+
+  // Modern SublimeText3 options
+  // Sidebar Selected Folder Icons
+    // Replaces Default Folder Icons
+    {
+        "class": "icon_folder",
+        "content_margin": [0, 6, 18, 7],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
+        "layer0.texture": "Theme - Numix Light/assets/group-closed.png",
+        "layer0.tint": [60, 60, 60, 200]
+    },
+    {
+        "class": "icon_folder",
+        "layer0.texture": "Theme - Numix Light/assets/group-open.png",
+        "parents": [{"class": "tree_row", "attributes": ["expanded"]}]
+    },
+
+    // Sidebar file icons
+    {
+        "class": "icon_file_type",
+        // layer0.texture is filled in by code with the relevant icon name
+        "layer0.opacity": 0.6,
+        "layer0.tint": [60, 60, 60, 200],
+        "content_margin": [8, 7, 8, 9]
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.opacity": 1.0
+    }
 ]
