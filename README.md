@@ -28,6 +28,11 @@ Open config file `Preferences -> Settings - User`
 
 Add option `"theme" : "Numix Light.sublime-theme"`
 
+### Theme options
+If you using old version of Sublime Text, that doesnt support sidebar icons, you can use fallback option in user settings file:
+
+    'numix_light_sidebar_fallback' : true
+
 ## Screenshots
 
 ![](https://dl.dropboxusercontent.com/u/76506086/github/numix%20light/screenshots/1_v1.png)
