@@ -1,6 +1,7 @@
 # Theme - Numix Light
 
 Sublime text theme based on ["Theme - Numix"](https://github.com/alperenelhan/sublime-numix-theme).
+Icons from ["SetiUI Icons"](https://github.com/mrmartineau/SetiUI-Icons-Sublime)
 
 ## Installation
 
