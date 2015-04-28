@@ -239,6 +239,7 @@
   {
     "class": "fold_button_control",
     "layer0.texture": "Theme - Numix Light/assets/fold-closed.png",
+    "layer0.tint" : [60, 60, 60, 255],
     "layer0.opacity": 0.8,
     "layer0.inner_margin": 0,
     "layer1.texture": "",
