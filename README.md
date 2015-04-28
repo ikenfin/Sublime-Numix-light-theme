@@ -34,6 +34,13 @@ If you using old version of Sublime Text, that doesnt support sidebar icons, you
 
     'numix_light_sidebar_fallback' : true
 
+**Other options:**
+
+By default `Numix Light` uses **32px** for tabs height, you can customize it like this:
+
+    'numix_light_tabs_med' : true // Tab height = 42
+    'numix_light_tabs_big' : true // Tab height = 52
+
 ## Screenshots
 
 ![](https://dl.dropboxusercontent.com/u/76506086/github/numix%20light/screenshots/1_v1.png)
