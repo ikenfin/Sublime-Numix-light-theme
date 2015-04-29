@@ -23,6 +23,11 @@
   },
   {
     "class": "tabset_control",
+    "tab_height": 24,
+    "settings": ["numix_light_tabs_small"]
+  },
+  {
+    "class": "tabset_control",
     "tab_height": 42,
     "settings": ["numix_light_tabs_med"]
   },
