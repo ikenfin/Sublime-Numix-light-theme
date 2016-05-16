@@ -306,7 +306,7 @@
     "class": "scroll_corner_control",
     "layer0.texture": "",
     "layer0.tint": [169, 169, 169],
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 0.0,
     "layer0.inner_margin": [0, 0]
   },
   // Standard vertical scroll puck
@@ -1247,6 +1247,14 @@
   //   // "settings": ["numix_light_sidebar_fallback"],
   //   "layer0.tint": [60, 60, 60, 200]
   // },
+  // DUPLICATE SYMLINKS
+  {
+    "class": "icon_folder_dup",
+    "content_margin": [0, 6, 18, 7],
+    "layer0.texture": "Theme - Numix Light/assets/folder-dup@2x.png",
+    "layer0.opacity": 1.0,
+    "layer0.tint": [60, 60, 60, 200]
+  },
   // DESELECTED
   // :: CLOSED
   {
@@ -1255,7 +1263,7 @@
     "content_margin": [0, 6, 18, 7],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": 0,
-    "layer0.texture": "Theme - Numix Light/assets/group-closed.png",
+    "layer0.texture": "Theme - Numix Light/assets/group-closed@2x.png",
     "layer0.tint": [60, 60, 60, 200],
     "settings": ["numix_light_sidebar_fallback"]
   },
@@ -1273,7 +1281,7 @@
     "class": "disclosure_button_control",
     "attributes": ["expanded"],
     "parents": [{"class": "tree_row"}],
-    "layer0.texture": "Theme - Numix Light/assets/group-open.png",
+    "layer0.texture": "Theme - Numix Light/assets/group-open@2x.png",
     "settings": ["numix_light_sidebar_fallback"]
   },
   //
@@ -1312,12 +1320,12 @@
         "content_margin": [0, 6, 18, 7],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer0.texture": "Theme - Numix Light/assets/group-closed.png",
+        "layer0.texture": "Theme - Numix Light/assets/group-closed@2x.png",
         "layer0.tint": [60, 60, 60, 200]
     },
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - Numix Light/assets/group-open.png",
+        "layer0.texture": "Theme - Numix Light/assets/group-open@2x.png",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}]
     },
 
