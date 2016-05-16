@@ -5,11 +5,10 @@
 [
   {
     "class": "tabset_control",
-    "height":32,
     "layer0.texture": "",
     "layer0.tint": [213, 213, 213], //[45, 45, 45],
-    "layer0.inner_margin": [10, 0],
-    "layer0.outer_margin": [10, 0],
+    // "layer0.inner_margin": [10, 0],
+    // "layer0.outer_margin": [10, 0],
     "layer0.opacity": 1.0,
     "layer1.opacity": 1.0,
     "layer1.texture": "Theme - Numix Light/assets/tab-panel-border-bottom.png",
@@ -20,6 +19,11 @@
     "tab_min_width": 48,
     "tab_height": 32,
     "mouse_wheel_switch": false
+  },
+  {
+    "class": "tabset_control",
+    "tab_height": 24,
+    "settings": ["numix_light_tabs_small"]
   },
   {
     "class": "tabset_control",
@@ -76,7 +80,7 @@
   {
     "class": "tab_control",
     "layer0.tint": [213, 213, 213],//[45, 45, 45]
-    "layer1.outer_margin" : [32, 0]
+    // "layer1.outer_margin" : [32, 0]
   },
   {
     "class": "tab_label",
@@ -123,7 +127,7 @@
   {
     "class": "tab_close_button",
     "content_margin": [10, 0],
-    "margin" : [0, 0],
+    //"margin" : [0, 0],
     // Tab close default settings
     "layer0.texture": "Theme - Numix Light/assets/close.png",
     "layer0.tint": [0, 0, 0],
@@ -556,7 +560,7 @@
   // SIDEBARSETTINGS
   {
     "class": "sidebar_heading",
-    "color": [60, 60, 60, 200],
+    // "color": [60, 60, 60, 200],
     "font.bold": true,
     "shadow_color": [148, 149, 151],
     "shadow_offset": [0, 0]
@@ -570,7 +574,7 @@
     "layer0.tint": [213, 213, 213], //[45, 45, 45],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [1,1],
-    "color": [120,120,120, 255]
+    // "color": [120,120,120, 255]
   },
   // Sidebar entry
   {
